@@ -1,0 +1,408 @@
+/* styles for the loopstudio */
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-weight: 400;
+    font-family: 'Alata', 'Josefin Sans', sans-serif;
+    line-height: 1.7;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 100vh;
+    background-image: linear-gradient(to top  right, hsla(0, 30%, 9%, 0.452),hsla(0, 0%, 0%, 0.452)),url(images/desktop/image-hero.jpg);
+    background-position: top;
+    background-size: cover;
+    position: relative;
+}
+
+.logobox{
+    position: absolute;
+    top: 10%;
+    left: 12%;
+}
+
+.text-container {
+    border: solid .2rem #fff;
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    left: 12%;
+    padding: 3rem 5rem;
+    width: 64rem;
+}
+
+.text {
+    font-size: 7rem;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: left;
+    letter-spacing: .1rem;
+}
+
+.nav-bar {
+    position: absolute;
+    top: 10%;
+    right: 7%;
+}
+
+.lists {
+    list-style-type: none;
+}
+
+.list-item {
+    display: inline-block;
+    margin: 0 1.5rem;
+    font-size: 1.7rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.sect1 {
+    position: relative;
+    height: 110vh;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.img {
+    position: absolute;
+    top: 20%;
+    left: 7%;
+}
+
+.textBox {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 50rem;
+    height: 40rem;
+    background: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.text1 {
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    width: 55rem;
+    padding: 0 7rem;
+    margin: 8rem 1rem;
+    line-height: 1;
+}
+
+.text2 {
+    font-size: 1.5rem;
+    text-transform: lowercase;
+    width: 38rem;
+    margin-top: 3rem;
+    line-height: 1.7; 
+    font-weight: bold;
+    color:  hsl(0, 0%, 55%);
+}
+
+.sect2 {
+    position: relative;
+    height: 100vh;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.headt {
+    position: absolute;
+    top: 7%;
+    left: 7%;
+    font-size: 3rem;
+    font-family:  'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.btn {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #333;
+    border: solid .2rem #666;
+    padding: 1rem 5rem;
+    font-size: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: .2rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 3rem;
+}
+
+.grid {
+    position: relative;
+    background-color: black;
+    height: 40rem;
+    margin-top: 15rem;
+}
+
+.grid img {
+    width: 100%;
+}
+
+
+.u-margin {
+    margin-top: 7rem;
+}
+
+.grid-text {
+    position: absolute;
+    bottom: -8%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 3rem;
+    width: 16rem;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.footer {
+    padding:8rem 0rem;
+    background-color: #000;
+    margin-top: 60rem;
+    position: relative;
+}
+
+
+.footer-logobox {
+    position: absolute;
+    top: 25%;
+    left: 7%;
+}
+
+
+.footer-logobox img {
+    width: 14rem;
+}
+
+
+.footer-nav-bar {
+    position: absolute;
+    left: 6%;
+    top: 55%;
+}
+
+.F-list-item {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 1.5rem;
+    font-family: 'Josefin Sans', sans-serif
+}
+
+.icons {
+    position: absolute;
+    top: 25%;
+    right: 12%;
+}
+
+.icon-item {
+    padding: 0 .5rem;
+    text-decoration: none;
+}
+
+.footer-text {
+    color: hsl(0, 0%, 55%);
+    position: absolute;
+    right: 12%;
+    top: 55%;
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
